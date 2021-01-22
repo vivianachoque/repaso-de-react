@@ -1,7 +1,6 @@
-//variables
-const nombre = 'belu';
-const apellido = 'andá a dormir, te amo';
+const arreglo = [1,2,3,4];
 
-const nombreCompleto = `${ nombre } ${apellido}`;
+let arreglo2 = [... arreglo, 5];
 
-console.log(nombreCompleto)
+console.log ( arreglo );
+console.log ( arreglo2 );
